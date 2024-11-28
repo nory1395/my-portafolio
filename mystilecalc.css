@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+/* Input Container */
+.input-container {
+    margin: 20px auto;
+}
+
+.input-container label {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.input-container input {
+    width: 120px;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Containers */
+.button-container {
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Result Container */
+.result-container {
+    margin: 30px auto;
+}
+
+.result-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.result-container input {
+    width: 200px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .input-container input, .result-container input {
+        width: 100px;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}

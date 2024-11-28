@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="mystilecalc.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Simple Calculator</h1>
+    </header>
+
+    <main>
+        <section class="input-container">
+            <label for="num1">Number 1:</label>
+            <input type="number" id="num1" aria-label="First number">
+
+            <label for="num2">Number 2:</label>
+            <input type="number" id="num2" aria-label="Second number">
+        </section>
+
+        <section class="button-container">
+            <button onclick="suma()" aria-label="Addition">+</button>
+            <button onclick="resta()" aria-label="Subtraction">-</button>
+            <button onclick="multiplicacion()" aria-label="Multiplication">×</button>
+            <button onclick="division()" aria-label="Division">÷</button>
+        </section>
+
+        <section class="button-container">
+            <button onclick="raiz()" aria-label="Square Root">√</button>
+            <button onclick="potencia()" aria-label="Power">^</button>
+            <button onclick="absoluto()" aria-label="Absolute Value">|x|</button>
+            <button onclick="random()" aria-label="Random Number">Random</button>
+        </section>
+
+        <section class="result-container">
+            <h2>Result:</h2>
+            <input type="text" id="resultado" aria-label="Result" readonly>
+        </section>
+
+        <section class="button-container">
+            <button onclick="round()" aria-label="Round">Round</button>
+            <button onclick="floor()" aria-label="Floor">Floor</button>
+            <button onclick="ceil()" aria-label="Ceiling">Ceil</button>
+        </section>
+    </main>
+</body>
+
+</html>

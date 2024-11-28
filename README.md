@@ -24,7 +24,7 @@ JavaScript: For handling the logic of operations and user interaction.
 Open the index.html file in your browser.
 Enter two numbers in the respective fields.
 Select an operation to see the result.
-![Calculator UI](screenshots/calculator-ui.png)
+![Calculator UI](SimpleCalc.png)
 
 ## Key Learnings
 This project helped to practice concepts:
